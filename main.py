@@ -12,7 +12,7 @@ app = Flask(__name__)
 def home():
     return jsonify({
         "message": "Welcome to Mail Info API",
-        "usage": "/info?mail=example@gmail.com"
+        "usage": "/info?mail=example1@gmail.com"
     })
 
 
